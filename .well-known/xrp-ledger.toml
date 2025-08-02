@@ -10,10 +10,6 @@ description = "ZLUG is a meme project on XRPL. Not financial advice."
 address = "rpyhmk2oYXrGrAw6wniiouwVXyr2mFwucJ"         # ZLUGSELF (issuer)
 desc    = "Issuer account — mints ZLUG."
 
-[[ACCOUNTS]]
-address = "rnjG9c1rGzfasRXrc43sGmxHZepP6BQqEL"       # VAULT69M (treasury/distribution)
-desc    = "Treasury/Vault — holds supply and distributes."
-
 # --- Token definition (ZLUG) ---
 [[CURRENCIES]]
 code              = "ZLUG"
