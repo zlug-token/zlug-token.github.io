@@ -2,7 +2,7 @@
 
 [METADATA]
 orgName = "ZLUG"
-orgWebsite = "https://zlug.github.io"
+orgWebsite = "https://zlug-token.github.io"
 description = "ZLUG is a meme project on XRPL. Not financial advice."
 
 # --- Public accounts you disclose ---
@@ -18,8 +18,8 @@ name              = "ZLUG"
 symbol            = "ZLUG"
 display_decimals  = 0
 network           = "main"
-icon              = "https://zlug.github.io/.well-known/ZLUG-logo.PNG"
-logo             = "https://zlug.github.io/.well-known/ZLUG-logo.PNG"
-website          = "zlug.guthub.io"
+icon              = "https://zlug-token.github.io/.well-known/ZLUG-logo.PNG"
+logo             = "https://zlug-token.github.io/.well-known/ZLUG-logo.PNG"
+website          = "zlug-token.guthub.io"
 info              = "Community meme token. No presale. 69M max supply. 69% of NFT proceeds burnt."
 transfer_fee      = 0
