@@ -1,7 +1,7 @@
 # xrp-ledger.toml  — host at: https://lyra-slug.github.io/.well-known/xrp-ledger.toml
 
 [METADATA]
-modified = "2025-08-01T00:00:00Z"
+modified = "02-08-2025"
 orgName = "ZLUG"
 orgWebsite = "https://lyra-slug.github.io"
 description = "ZLUG is a meme project on XRPL. Not financial advice."
