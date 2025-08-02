@@ -1,6 +1,32 @@
-[CURRENCIES]
-code = "ZLUG"
-issuer = "rpyhmk2oYXrGrAw6wniiouwVXyr2mFwucJ"
-display_decimals = 0
-icon = "https://lyra-slug.github.io/.well-known/ZLUG-logo.PNG"
-desc = "ZLUG — community meme token. Max supply 69,000,000. 69% of NFT proceeds burnt."
+# xrp-ledger.toml  — host at: https://lyra-slug.github.io/.well-known/xrp-ledger.toml
+
+[METADATA]
+modified = "2025-07-31"
+orgName = "ZLUG"
+orgWebsite = "https://lyra-slug.github.io"
+description = "ZLUG is a meme project on XRPL. Not financial advice."
+
+# --- Public accounts you disclose ---
+[[ACCOUNTS]]
+address = "rpyhmk2oYXrGrAw6wniiouwVXyr2mFwucJ"         # ZLUGSELF (issuer)
+desc    = "Issuer account — mints ZLUG."
+
+[[ACCOUNTS]]
+address = "rnjG9c1rGzfasRXrc43sGmxHZepP6BQqEL"       # VAULT69M (treasury/distribution)
+desc    = "Treasury/Vault — holds supply and distributes."
+
+# --- Token definition (ZLUG) ---
+[[CURRENCIES]]
+code              = "ZLUG"
+issuer            = "rpyhmk2oYXrGrAw6wniiouwVXyr2mFwucJ"
+name              = "ZLUG"
+symbol            = "ZLUG"
+decimals          = 6                      # adjust if you plan fewer/more decimals
+display_decimals  = 2
+network           = "main"
+icon              = "https://lyra-slug.github.io/.well-known/ZLUG-logo.PNG"
+website           = "https://lyra-slug.github.io"
+info              = "Community meme token. No presale. 69M max supply. 69% of NFT proceeds burnt."
+transfer_fee      = 0
+# (Optional convenience link for users to set a trustline)
+trustline         = "https://bithomp.com/tools/trustline?issuer=rpyhmk2oYXrGrAw6wniiouwVXyr2mFwucJ&currency=ZLUG"
