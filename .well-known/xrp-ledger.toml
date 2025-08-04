@@ -10,6 +10,22 @@ description = "ZLUG is a meme project on XRPL. Not financial advice."
 address = "rpyhmk2oYXrGrAw6wniiouwVXyr2mFwucJ"         # ZLUGSELF (issuer)
 desc    = "Issuer account — mints ZLUG."
 
+[[TOKENS]]
+issuer = "rpyhmk2oYXrGrAw6wniiouwVXyr2mFwucJ"
+currency = "ZLUG"
+name = "ZLUG Token"
+desc = "A meme token with no ambition. Just vibes."
+icon = "https://zlug-token.github.io/.well-known/zlug-token.png"
+
+[[TOKENS.URLS]]
+url = "https://zlug-token.github.io"
+type = "website"
+title = "Official Website"
+
+[[TOKENS.URLS]]
+url = "https://x.com/ZLUGToken"
+type = "social"
+
 # --- Token definition (ZLUG) ---
 [[CURRENCIES]]
 code              = "ZLUG"
