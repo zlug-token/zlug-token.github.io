@@ -26,7 +26,7 @@ icon = "https://zlug-token.github.io/.well-known/zlug-token.png"
 [[TOKENS.URLS]]
 url = "https://zlug-token.github.io"
 type = "website"
-title = "Official Website"
+title = "ZLUG Official Website"
 
 
 [[TOKENS.URLS]]
@@ -34,8 +34,16 @@ url = "https://x.com/ZLUGToken"
 type = "social"
 
 [[TOKENS.URLS]]
-https://xrp.cafe/collection/zlug
+url = "https://t.me/+qnqZeba0eUYwNzg1"
+type = "social"
+
+[[TOKENS.URLS]]
+url = "https://xrp.cafe/collection/zlug"
 type = "NFT Collection"
+
+[[TOKENS.URLS]]
+url = "https://bithomp.com/en/services/trustline?currency=5A4C554700000000000000000000000000000000&currencyIssuer=rpyhmk2oYXrGrAw6wniiouwVXyr2mFwucJ"
+type = "web link - Add Trust Line"
 
 # --- Token definition (ZLUG) ---
 [[CURRENCIES]]
