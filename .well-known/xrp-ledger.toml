@@ -28,9 +28,14 @@ url = "https://zlug-token.github.io"
 type = "website"
 title = "Official Website"
 
+
 [[TOKENS.URLS]]
 url = "https://x.com/ZLUGToken"
 type = "social"
+
+[[TOKENS.URLS]]
+https://xrp.cafe/collection/zlug
+type = "NFT Collection"
 
 # --- Token definition (ZLUG) ---
 [[CURRENCIES]]
