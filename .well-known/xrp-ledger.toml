@@ -34,9 +34,12 @@ url = "https://x.com/ZLUGToken"
 type = "social"
 
 [[TOKENS.URLS]]
-https://xrp.cafe/collection/zlug
+url = "https://xrp.cafe/collection/zlug"
 type = "NFT Collection"
 
+[[TOKENS.URLS]]
+url = "https://bithomp.com/en/services/trustline?currency=5A4C554700000000000000000000000000000000&currencyIssuer=rpyhmk2oYXrGrAw6wniiouwVXyr2mFwucJ"
+type = "Trust Line Link"
 # --- Token definition (ZLUG) ---
 [[CURRENCIES]]
 code              = "ZLUG"
