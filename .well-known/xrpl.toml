@@ -1,0 +1,55 @@
+# xrpl.toml  — host at: https://zlug.github.io/.well-known/xrpl.toml
+
+[[ISSUERS]]
+address = "rpyhmk2oYXrGrAw6wniiouwVXyr2mFwucJ"
+name = "ZLUG"
+desc = "ZLUG is a meme project created for entertainment and community vibes."
+icon = "https://zlug-token.github.io/.well-known/zlug-token.png"
+
+[METADATA]
+orgName = "ZLUG"
+orgWebsite = "https://zlug-token.github.io"
+description = "ZLUG is a meme project on XRPL. Not financial advice."
+
+# --- Public accounts you disclose ---
+[[ACCOUNTS]]
+address = "rpyhmk2oYXrGrAw6wniiouwVXyr2mFwucJ"         # ZLUGSELF (issuer)
+desc    = "Issuer account — mints ZLUG."
+
+[[TOKENS]]
+issuer = "rpyhmk2oYXrGrAw6wniiouwVXyr2mFwucJ"
+currency = "ZLUG"
+name = "ZLUG Token"
+desc = "A meme token with no ambition. Just vibes."
+icon = "https://zlug-token.github.io/.well-known/zlug-token.png"
+
+[[TOKENS.URLS]]
+url = "https://zlug-token.github.io"
+type = "website"
+title = "Official Website"
+
+
+[[TOKENS.URLS]]
+url = "https://x.com/ZLUGToken"
+type = "social"
+
+[[TOKENS.URLS]]
+url = "https://xrp.cafe/collection/zlug"
+type = "NFT Collection"
+
+[[TOKENS.URLS]]
+url = "https://bithomp.com/en/services/trustline?currency=5A4C554700000000000000000000000000000000&currencyIssuer=rpyhmk2oYXrGrAw6wniiouwVXyr2mFwucJ"
+type = "Trust Line Link"
+# --- Token definition (ZLUG) ---
+[[CURRENCIES]]
+code              = "ZLUG"
+issuer            = "rpyhmk2oYXrGrAw6wniiouwVXyr2mFwucJ"
+name              = "ZLUG"
+symbol            = "ZLUG"
+display_decimals  = 0
+network           = "main"
+icon              = "https://zlug-token.github.io/.well-known/zlug-token.png"
+logo             = "https://zlug-token.github.io/.well-known/zlug-token.png"
+website          = "zlug-token.guthub.io"
+info              = "Community meme token. No presale. 69M max supply. 69% of NFT proceeds burnt."
+transfer_fee      = 0
