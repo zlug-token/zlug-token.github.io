@@ -19,7 +19,7 @@ desc    = "Issuer account — mints ZLUG."
 [[TOKENS]]
 issuer = "rpyhmk2oYXrGrAw6wniiouwVXyr2mFwucJ"
 currency = "ZLUG"
-name = "ZLUG Token"
+name = "ZLUG"
 desc = "A meme token with no ambition. Just vibes."
 icon = "https://zlug-token.github.io/.well-known/zlug-token.png"
 
